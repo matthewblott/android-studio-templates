@@ -3,6 +3,7 @@ package com.example.app
 import android.graphics.PorterDuff
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
@@ -18,17 +19,14 @@ class MainActivity : AppCompatActivity() {
     super.onCreate(savedInstanceState)
 
     binding = ActivityMainBinding.inflate(layoutInflater)
-    setContentView(binding.root)
 
-//    val supportActionBar = supportActionBar
-//    supportActionBar?.setDisplayHomeAsUpEnabled(true)
-//    binding.toolbar.navigationIcon?.setColorFilter(1, PorterDuff.Mode.SRC_IN)
-//    binding.toolbar.navigationIcon?.mutate()?.setColorFilter(1, PorterDuff.Mode.SRC_IN)
+    AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM)
+
+    setContentView(binding.root)
 
     setSupportActionBar(binding.toolbar)
 
-//    actionBar?.setHomeAsUpIndicator(R.drawable.ic_overflow);
-    val actionBar = getSupportActionBar()
+    val actionBar = supportActionBar
 
     actionBar?.setDisplayHomeAsUpEnabled(true)
     actionBar?.setHomeAsUpIndicator(R.drawable.ic_overflow)
@@ -39,6 +37,7 @@ class MainActivity : AppCompatActivity() {
     setupActionBarWithNavController(navController, appBarConfiguration)
   }
 
+  // Required for the back / up button
   override fun onSupportNavigateUp(): Boolean {
     val navController = findNavController(R.id.content_main)
     return navController.navigateUp(appBarConfiguration)
