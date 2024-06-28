@@ -1,6 +1,5 @@
 package com.example.app
 
-import android.graphics.PorterDuff
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
@@ -26,14 +25,8 @@ class MainActivity : AppCompatActivity() {
 
     setSupportActionBar(binding.toolbar)
 
-    val actionBar = supportActionBar
-
-    actionBar?.setDisplayHomeAsUpEnabled(true)
-    actionBar?.setHomeAsUpIndicator(R.drawable.ic_overflow)
-
     val navController = findNavController(R.id.content_main)
     appBarConfiguration = AppBarConfiguration(navController.graph)
-
     setupActionBarWithNavController(navController, appBarConfiguration)
   }
 

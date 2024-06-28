@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-  <style name="MyTheme" parent="MyTheme.Dark">
-  </style>
-
-  <style name="MyTheme.Dark" parent="@style/Theme.AppCompat.DayNight.NoActionBar">
+  <style name="MyTheme" parent="@style/Theme.AppCompat.DayNight.NoActionBar">
     <item name="toolbarStyle">@style/CustomToolbarStyle</item>
 
     <!-- Title bar colour -->
@@ -17,9 +14,11 @@
     <item name="android:textColor">#FFFF00</item>
 
   </style>
+
   <style name="CustomToolbarStyle" parent="Widget.AppCompat.Toolbar">
 
     <!-- Toolbar background colour -->
     <item name="android:background">#21CCFF</item>
   </style>
+
 </resources>
