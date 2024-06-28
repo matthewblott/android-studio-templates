@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Light theme colors -->
+  <color name="md_theme_light_primary">#007B83</color> <!-- Soft teal -->
+  <color name="md_theme_light_onPrimary">#FFFFFF</color> <!-- White text on primary -->
+  <color name="md_theme_light_secondary">#6E6E6E</color> <!-- Neutral gray -->
+  <color name="md_theme_light_onSecondary">#FFFFFF</color> <!-- White text on secondary -->
+  <color name="md_theme_light_background">#F5F5F5</color> <!-- Light gray background -->
+  <color name="md_theme_light_onBackground">#000000</color> <!-- Black text on background -->
+  <color name="md_theme_light_surface">#FFFFFF</color> <!-- White surface -->
+  <color name="md_theme_light_onSurface">#000000</color> <!-- Black text on surface -->
+  <color name="md_theme_light_error">#B00020</color> <!-- Soft red for errors -->
+  <color name="md_theme_light_onError">#FFFFFF</color> <!-- White text on error -->
+
+  <!-- Dark theme colors -->
+  <color name="md_theme_dark_primary">#03DAC5</color> <!-- Vibrant teal -->
+  <color name="md_theme_dark_onPrimary">#000000</color> <!-- Black text on primary -->
+  <color name="md_theme_dark_secondary">#B0BEC5</color> <!-- Lighter gray -->
+  <color name="md_theme_dark_onSecondary">#000000</color> <!-- Black text on secondary -->
+  <color name="md_theme_dark_background">#121212</color> <!-- Dark gray background -->
+  <color name="md_theme_dark_onBackground">#FFFFFF</color> <!-- White text on background -->
+  <color name="md_theme_dark_surface">#1E1E1E</color> <!-- Slightly lighter surface -->
+  <color name="md_theme_dark_onSurface">#FFFFFF</color> <!-- White text on surface -->
+  <color name="md_theme_dark_error">#CF6679</color> <!-- Soft red for errors -->
+  <color name="md_theme_dark_onError">#000000</color> <!-- Black text on error -->
+</resources>

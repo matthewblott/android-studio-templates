@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <style name="MyTheme" parent="@style/Theme.Material3.DayNight.NoActionBar">
+  </style>
+<!--  <style name="MyTheme" parent="@style/Theme.Material3.DayNight.NoActionBar">-->
+<!--    <item name="toolbarStyle">@style/CustomToolbarStyle</item>-->
+
+<!--    &lt;!&ndash; Title bar colour &ndash;&gt;-->
+<!--    <item name="android:textColorPrimary">#FF0000</item>-->
+
+<!--    &lt;!&ndash; Up / back button colour &ndash;&gt;-->
+<!--    <item name="android:textColorSecondary">#00FF00</item>-->
+
+<!--    &lt;!&ndash; Main screen text colour &ndash;&gt;-->
+<!--    <item name="android:textColor">#FFFF00</item>-->
+
+<!--  </style>-->
+
+<!--  <style name="CustomToolbarStyle" parent="Widget.AppCompat.Toolbar">-->
+
+<!--    &lt;!&ndash; Toolbar background colour &ndash;&gt;-->
+<!--    <item name="android:background">#21CCFF</item>-->
+<!--  </style>-->
+
+</resources>
